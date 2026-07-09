@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+    <h3>Create a new memory..💫</h3>
+<body>
+    <form>
+
+        <label for="title"><strong>Article Title</strong></label><br>
+        <input type="text" id="title" name="title" placeholder="Enter article title" required>
+
+        <br><br>
+
+        <label for="category"><strong>Category</strong></label><br>
+        <select id="category" name="category">
+            <option value="">Select a Category</option>
+            <option>🐶 Pets</option>
+            <option>✈️ Travel</option>
+            <option>🎨 Hobbies</option>
+            <option>🍔 Food</option>
+            <option>📚 Books</option>
+            <option>🎵 Music</option>
+            <option>💻 Coding</option>
+            <option>💭 Daily Blog</option>
+        </select>
+
+        <br><br>
+
+        <label for="date"><strong>Date</strong></label><br>
+        <input type="date" id="date" name="date">
+
+        <br><br>
+
+        <label for="mood"><strong>Mood</strong></label><br>
+        <select id="mood" name="mood">
+            <option>😊 Happy</option>
+            <option>😍 Loved</option>
+            <option>😎 Excited</option>
+            <option>😐 Normal</option>
+            <option>😔 Sad</option>
+            <option>😭 Crying</option>
+            <option>😡 Angry</option>
+            <option>😴 Sleepy</option>
+        </select>
+
+        <br><br>
+
+        <label for="location"><strong>Location</strong></label><br>
+        <input type="text" id="location" name="location" placeholder="Where was this?">
+
+        <br><br>
+
+        <label for="image"><strong>Upload Image(s)</strong></label><br>
+        <input type="file" id="image" name="image" accept="image/*" multiple>
+
+        <br><br>
+
+        <label for="content"><strong>Journal Entry</strong></label><br>
+        <textarea id="content"
+                  name="content"
+                  rows="12"
+                  cols="60"
+                  placeholder="Write about your day..."></textarea>
+
+        <br><br>
+
+        <label for="tags"><strong>Tags</strong></label><br>
+        <input type="text"
+               id="tags"
+               name="tags"
+               placeholder="Vacation, Friends, College">
+
+        <br><br>
+
+        <label><strong>Visibility</strong></label><br>
+
+        <input type="radio" name="visibility" value="private" checked>
+        Private
+
+        <input type="radio" name="visibility" value="public">
+        Public
+
+        <br><br>
+
+        <button type="submit">💾 Save Article</button>
+
+        <button type="reset">❌ Clear</button>
+
+    </form>
+
+</section>
+    </form>
+</body>
+</html>
